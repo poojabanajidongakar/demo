@@ -1,0 +1,268 @@
+.loginerror {
+	text-align: center!important;
+    color: red;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.header {
+    padding: 2%;
+}
+#projecttitle h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #337ab7;
+    text-transform: uppercase;
+    margin-top: 35px;
+}       
+.userdetails p {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: black!important;
+    float: right;
+    margin-bottom: 0;
+}
+#logoutbtn {
+    margin-right: 0;
+    float: right;
+    margin-left: 80%;
+}
+.upd
+{
+   margin-top: 2%;
+}
+ #exebtn
+{
+   width: 25%;
+   padding: 1%;
+     } 
+.uplbtn
+{
+   height: 55px;
+   width: 25%;
+} 
+.head
+    {
+         text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 5%;
+	}	  
+	.upd .uplbtn, .upd #exebtn {
+	    font-size: 18px;
+	   /*  width: 40%; */
+	}
+	.disbursal .uplbtn, .disbursal #exebtn {
+	    font-size: 15px!important;
+    	font-weight: bold!important;
+	}
+	.steponediv, .steptwodiv {
+		border: 2px dotted black;
+	}
+	.rightsidediv {
+	    border-left: 2px dotted black;
+	}
+	.leftsidediv, .rightsidediv {
+    	padding: 2%;
+	}
+	.leftsidediv #exebtn, .rightsidediv #exebtn, .leftsidediv .uplbtn, .rightsidediv .uplbtn {
+		width: 45%;
+	}
+	.steponediv .leftsidediv h3 {
+	    margin: 0;
+    	padding: 15%;
+        font-size: 26px;
+    	font-weight: bold;	
+	}
+	.steptwodiv .leftsidediv h3 {
+	 	margin: 0;
+    	padding: 8%;	
+        font-size: 26px;
+    	font-weight: bold;
+	}
+	
+
+#backcolor {
+    background: #337ab7;
+   /*  height: 20px;  */
+}
+
+.menu {
+    padding-left: 8px;
+}
+.menu ul{
+	padding: 0;
+} 
+
+.menu ul li{
+	
+    text-align: -webkit-center;
+    list-style: none;
+    padding: 0.6%;
+    display: -webkit-inline-box;
+    width: 19%; 
+    /* width: 24%;    */
+}
+.menu ul li a{
+	color: white;
+	font-size: 15px;
+    font-weight: bold;
+}
+.menu ul li a:hover {
+	width:100%;
+	text-decoration: none;
+}
+.rightside{
+	padding: 1%;
+}
+.rightside .panel, .rightside .panel-heading, .rightside .panel-body {
+	border-radius: 0px;	 
+}
+.rightside .panel {
+	margin-top: 0!important;
+}
+.comingsoon {
+	text-align: center;
+    color: blue;
+}
+.systemtitle {
+	margin-top: 0;
+    margin-bottom: 3%;
+    color: #337ab7;
+    font-weight: bold;
+}
+
+ul.dropdown-menu {
+    /* width: 75%;
+    margin-left: 15%; */
+        width: 100%;
+    margin-left: 0%;
+}
+ul.dropdown-menu li {
+    width: 100%;
+    border: 1px solid #337ab7;
+}
+ul.dropdown-menu li a {
+	color: #337ab7;
+    text-align: center;
+}
+
+.logictbl {
+    padding: 2%;
+}
+.logictbl h2 {
+	text-align: center;
+    margin-bottom: 2%;
+    margin-top: 0;
+    color: #337ab7;
+}
+.logictbl table {
+ 	border-top: 2px solid #dddddd;
+}
+.logictbl table tr th, .logictbl table tr td {
+    border: 2px solid #dddddd;
+    text-align: center;
+}
+
+.stepthree .exportmaster {
+	width: 21%!important;
+    padding: 1%!important;
+}
+
+.stepone, .steptwo, .stepthree, .stepfour {
+    border: 2px dotted black;
+}
+.stepone .leftside h3 {
+    margin: 0;
+    padding: 16%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.steptwo .leftside h3 {
+	/* margin: 45px 0; */
+	margin: 0;
+    padding: 16%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.stepthree .leftside h3 {
+    margin: 0;
+    padding: 16%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.stepfour .leftside h3 {
+    margin: 0;
+    padding: 17%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.disbursal .rightdiv {
+    padding: 0;
+    margin-top: 20px;
+    border-left: 0px dotted black;
+}
+.rightdiv {
+    padding: 2%;
+    border-left: 2px dotted black;
+}
+.stepone .rightdiv #exebtn, .steptwo .rightdiv #exebtn {
+	width: 27%;
+    padding: 1%;
+}
+.stepfour .rightdiv #exebtn {
+	margin-left: 15px;
+    width: 16%;
+    padding: 1%;
+}
+.steptwo .rightdiv .uplbtn {
+	width: 30%;
+}
+.leftside {
+	border-right: 2px dotted black;
+}
+.exportndemaster {
+	width: 25%!important;
+    /* line-height: 10px; */
+}
+
+.ui-widget-header .ui-icon {
+    background-image: url(../images/ui-icons_444444_256x240.png)!important;
+}
+
+.disbursal .stepone .uplbtn {
+	height: 35px;
+    width: 18%;
+}
+.disbursal .steptwo .uplbtn {
+	height: 35px;
+    width: 20%;
+}
+.disbursal .stepthree .uplbtn {
+	height: 35px;
+    width: 22%;
+}
+.searchprn .maindiv .uplbtn {
+    height: 40px;
+    width: 10%;
+}
+
+#selectsname {
+	padding: 4px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

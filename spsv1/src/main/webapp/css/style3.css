@@ -1,0 +1,254 @@
+.banner-bottom-2 .about-midd-main img.agile-img {
+	border-radius: 50%;
+    width: 40%;
+    border: 2px solid rgba(236, 231, 231, 0.58);
+    padding: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.main-agile .content-wthree .about-middle, .content-wthree .new-account-form, .new-account-form input[type="text"], .new-account-form input[type="password"] {
+    width: 100%!important;
+}
+
+
+#mainbody {
+	background-color: #aba3a30f;
+}
+.mainbody {
+	width:100%;
+}
+.header {
+	padding: 2%;
+}
+.userdetails {
+	padding-top: 1%;
+    padding-left: 8%;
+}
+/* .userdetails {
+	padding-top: 1%;
+} */
+.userdetails p {
+	font-weight: bold;
+	font-size: 16px;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: black!important;
+}
+#backcolor{
+	background: #337ab7;
+    /* height: 15px; */
+}
+/* .menu {
+    padding-left: 8px;
+} */
+.menu ul{
+	padding: 0;
+} 
+.menu ul li{
+	/* list-style: none;
+    background: #2817b5;
+    padding: 5%;
+    border: 1px solid white; */
+    text-align: -webkit-center;
+    list-style: none;
+    padding: 1%;
+    display: -webkit-inline-box;
+    width: 12%;
+}
+.menu ul li a{
+	color: white!important;
+	font-size: 14px;
+    font-weight: bold;
+}
+.menu ul li a:hover {
+	text-decoration: none;
+}
+.rightside{
+	padding: 1%;
+}
+.rightside .panel, .rightside .panel-heading, .rightside .panel-body {
+	border-radius: 0px;	 
+}
+.rightside .panel {
+	margin-top: 0!important;
+}
+.spal .panel-group {
+    margin-bottom: 0px;
+}
+.readonlydata td input[readonly]{
+	background: #80808038;
+    border: 1px solid #8080808c;
+}
+.cncd1 tr td {
+	padding: 2px;
+}
+.cncd tr td, .fdetails tr td {
+	padding: 1px;
+	text-align: right;
+}
+.discdetails tr td {
+	padding: 1px;
+}
+.fdetails tr td select {
+	width: 100%;
+}
+.cncd tr td.oremark {
+	text-align: left;
+}
+.sparc tr td {
+	padding: 1px;
+}
+.niya tr td {
+	padding: 1px;
+}
+.sppan .panel-group {
+    margin-bottom: 0px;
+}
+.nidiv .panel-group {
+    margin-bottom: 0px;
+}
+.niya tr td select {
+    width: 98%;
+    height: 28px;
+}
+#imgsize {
+	width:100%;
+}
+.mainrow {
+	margin: 0;
+}
+#rstask {
+	padding: 0;
+}
+#rstask .rtask {
+	padding: 2%;
+	width:100%;
+}
+.rightsidediv .panel, .rightsidediv .panel-heading {
+	border-radius: 0px;
+}
+#imgright img {
+	width:100%;
+}
+.spal tr td select {
+    width: 98%;
+    height: 28px;
+} 
+.spal hr {
+	border-top: 1px solid #dedbdb;
+}
+.nidiv1 {
+	padding: 0.5%;
+}
+.nidiv2 {
+	padding: 2% 0.5% 0 0.5%;
+}
+#refont {
+    background-color: #80808073;
+    font-weight: bold;
+    font-size: 15px
+}
+.spal .bd, .cheprocess .mainheading {
+	border-color: #c6c6c6;
+}
+.niya .clr {
+	    background-color: #13608061;
+}
+.niya tr th,.niya tr td,#print td {
+	    border: 1px solid gray;
+	    border-top: 1px solid gray!important;
+	    text-align: center;
+}
+div.disctag {
+	height: 100px;
+    overflow: auto;
+    width: 80%;
+    border: 1px solid gray;
+    padding: 0 0 0 1%;
+    margin-top: 10px;
+}
+.disctag span {
+	display: flex;
+} 
+.chequebtndiv {
+	padding-bottom: 2%;
+}
+.chequebtndiv button {
+	background: #982020;
+    color: white;
+    border: 1px solid #982020;
+    margin-right: 5px;
+}	
+#err_msg {
+	color: red;
+	text-align: center;
+}
+.dropdown ul.dropdown-menu {
+    width: 100%;
+    margin: 0;
+}
+.dropdown ul.dropdown-menu li {
+	/* background-color: white;
+	border: 1px solid #2817b5; */
+	
+	background-color: white;
+	border: 1px solid #2817b5;
+	display: -webkit-box;
+    width: 100%;
+}
+.dropdown ul.dropdown-menu li a {
+	color: #2817b5;
+	/* padding: 3px 0; */
+	padding: 7px 3px;
+}
+#ufile {
+    margin-top: 20px;
+}
+#deletebtn a, #deletediscrepency a {
+	color: white;
+}
+#deletebtn a:hover, #deletediscrepency a:hover {
+	text-decoration: none;
+	color: white;
+}
+#successmsg {
+	color: green;
+	text-align: center;
+}
+#myInput {
+	padding: 8px;
+    margin-bottom: 1%;
+}
+/* .chequebtndiv input[type=text], .chequebtndiv input[type=reset] {
+	background: #982020;
+    color: white;
+    border: 1px solid #982020;
+} */
+.chequebtndiv .save, .chequebtndiv .save, .chequebtndiv .savedesc , .chequebtndiv .savedesc {
+	background: #982020;
+    color: white;
+    border: 1px solid #982020;
+}
+.errordiv #errormsg {
+	color: red;
+	font-weight: bold;
+}
+.error {
+	text-align: center;
+	color: red;
+	margin-bottom: 0px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+
+.main-agile {
+	width: 45%!important;
+}
+.new-account-form h2.heading-w3-agile {
+	text-align: center!important;
+}
+.content-wthree {
+	padding: 0 0 25px 0!important;
+} 
+
+

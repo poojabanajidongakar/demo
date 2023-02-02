@@ -1,0 +1,485 @@
+#mainbody {
+	background-color: #aba3a30f;
+}
+
+.mainbody {
+	width: 100%;
+}
+
+.header {
+	padding: 2%;
+}
+
+#logoutbtn {
+	margin-right: 0;
+	float: right;
+	/* margin-top: 0%; */
+	margin-left: 80%;
+}
+
+#projecttitle h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #337ab7;
+	text-transform: uppercase;
+	/*  letter-spacing: 0.5px; */
+	margin-top: 35px;
+}
+/* .userdetails {
+	padding-top: 1%;
+    padding-left: 12%;
+} */
+.projectheading h2 {
+	color: #ffffff !important;
+}
+
+#userdata p {
+	color: white !important;
+}
+
+.userdetails p {
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-style: italic;
+	color: black !important;
+	float: right;
+	margin-bottom: 0;
+}
+
+#backcolor {
+	background: #337ab7;
+	/* height: 15px; */
+}
+
+.menu {
+	padding-left: 8px;
+}
+
+.menu ul {
+	padding: 0;
+}
+
+.menu ul li {
+	/* list-style: none;
+    background: #2817b5;
+    padding: 5%;
+    border: 1px solid white; */
+	text-align: -webkit-center;
+	list-style: none;
+	padding: 1%;
+	display: -webkit-inline-box;
+	width: 13%;
+}
+
+.menu ul li a {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.menu ul li a:hover {
+	width: 100%;
+	text-decoration: none;
+}
+
+.rightside {
+	padding: 1%;
+}
+
+.rightside .panel, .rightside .panel-heading, .rightside .panel-body {
+	border-radius: 0px;
+}
+
+.rightside .panel {
+	margin-top: 0 !important;
+}
+
+.spal .panel-group {
+	margin-bottom: 0px;
+}
+
+.readonlydata td input[readonly] {
+	background: #80808038;
+	border: 1px solid #8080808c;
+	float: left;
+	/*   width:100%; */
+}
+
+.cncd1 tr td {
+	padding: 2px;
+}
+
+.cncd tr td, .fdetails tr td {
+	padding: 1px;
+	text-align: right;
+}
+
+.fdetails input[type="text"] {
+	float: left;
+}
+
+.discdetails tr td {
+	padding: 1px;
+}
+
+.fdetails tr td select {
+	width: 100%;
+}
+
+.cncd tr td.oremark {
+	text-align: left;
+}
+
+.sparc tr td {
+	padding: 1px;
+}
+
+.niya tr td {
+	padding: 1px;
+}
+
+.sppan .panel-group {
+	margin-bottom: 0px;
+}
+
+.nidiv .panel-group {
+	margin-bottom: 0px;
+}
+
+.niya tr td select {
+	width: 98%;
+	height: 28px;
+}
+
+#imgsize {
+	width: 100%;
+}
+
+.mainrow {
+	margin: 0;
+}
+
+#rstask {
+	padding: 0;
+}
+
+#rstask .rtask {
+	padding: 2%;
+	width: 100%;
+}
+
+.rightsidediv .panel, .rightsidediv .panel-heading {
+	border-radius: 0px;
+}
+
+#imgright img {
+	width: 100%;
+}
+
+.spal tr td select {
+	width: 98%;
+	height: 28px;
+}
+
+.spal hr {
+	border-top: 1px solid #dedbdb;
+}
+
+.nidiv1 {
+	padding: 0.5%;
+}
+
+.nidiv2 {
+	padding: 2% 0.5% 0 0.5%;
+}
+
+#refont {
+	background-color: #80808073;
+	font-weight: bold;
+	font-size: 15px
+}
+
+.spal .bd, .cheprocess .mainheading {
+	border-color: #c6c6c6;
+}
+
+.niya .clr {
+	background-color: #13608061;
+}
+
+.niya tr th, .niya tr td, #print td {
+	border: 1px solid gray;
+	border-top: 1px solid gray !important;
+	text-align: center;
+}
+
+div.disctag {
+	height: 100px;
+	overflow: auto;
+	width: 80%;
+	border: 1px solid gray;
+	padding: 1% 0 1% 1%;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+div.disctag #adddiscr {
+	width: 85%;
+	margin-left: 2%;
+	text-transform: uppercase;
+}
+
+.disctag span {
+	display: flex;
+}
+
+.chequebtndiv {
+	padding-bottom: 2%;
+}
+
+.chequebtndiv button {
+	background: #982020;
+	color: white;
+	border: 1px solid #982020;
+	margin-right: 5px;
+}
+/* .chequebtndiv #save, .chequebtndiv #savedesc {
+	background: #982020;
+    border: 1px solid #982020;
+    color: white;
+} */
+#err_msg {
+	color: red;
+	text-align: center;
+}
+
+.dropdown ul.dropdown-menu {
+	/* width: 100%;  */
+	margin: 0;
+}
+
+.dropdown ul.dropdown-menu li {
+	/* background-color: white;
+	border: 1px solid #2817b5; */
+	background-color: white;
+	border: 1px solid #2817b5;
+	display: -webkit-box;
+	width: 100%;
+}
+
+.dropdown ul.dropdown-menu li a {
+	color: #2817b5;
+	/* padding: 3px 0; */
+	padding: 7px 3px;
+}
+
+.dropdown-submenu>a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #2817b5;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+}
+/* .dropdown ul.dropdown-menu li a:hover {
+	color: #ffffff;
+    text-decoration: none;
+    background-color: #2817b5;
+} */
+#ufile {
+	margin-top: 20px;
+}
+
+.deletebtn a, #deletediscrepency a {
+	color: white;
+}
+
+.deletebtn a:hover, #deletediscrepency a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.successmsg {
+	color: green;
+	text-align: center;
+}
+
+#myInput {
+	padding: 8px;
+	margin: 2% 0;
+}
+/* .chequebtndiv input[type=text], .chequebtndiv input[type=reset] {
+	background: #982020;
+    color: white;
+    border: 1px solid #982020;
+} */
+.chequebtndiv .save, .chequebtndiv .save, .chequebtndiv .savedesc,
+	.chequebtndiv .savedesc {
+	background: #982020;
+	color: white;
+	border: 1px solid #982020;
+}
+
+.chequebtndiv a {
+	color: white;
+}
+
+.errordiv #errormsg {
+	color: red;
+	font-weight: bold;
+}
+
+.emp_choice {
+	width: 32% !important;
+}
+
+.uploadtitle {
+	color: #294abf;
+	font-weight: bold;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+.readonlydata #rpolicyno {
+	background: #c0e1ef;
+}
+
+.exportExcel {
+	padding: 1%;
+}
+
+.exportExcel h2 {
+	margin-bottom: 30px;
+	color: chocolate;
+	font-weight: bold;
+}
+
+.exportExcel .datepicker {
+	padding: 3px;
+	width: 15%;
+	margin-right: 2%;
+}
+
+.exportExcel button.btn a {
+	color: white;
+}
+
+.exportExcel button.btn {
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.exportExcel input[type=submit] {
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.exportExcel button.btn a:hover {
+	text-decoration: none;
+}
+
+.exportExcel .exdisc {
+	margin-left: 1%;
+}
+
+.report {
+	padding: 2%;
+}
+
+.report table.report_tbl {
+	margin-top: 3%;
+	width: 50%;
+}
+
+.presamp_reporttbl {
+	margin-top: 3%;
+	width: 80% !important;
+}
+
+.report table.report_tbl tr th, .report table.report_tbl tr td {
+	border: 1px solid #ddd !important;
+	text-align: center;
+}
+
+.report table.pre_reportTable tr th, .report table.pre_reportTable tr td
+	{
+	border: 2px solid black !important;
+	text-align: center;
+}
+
+.report table.pre_reportTable .maker {
+	background: #ead5b8;
+}
+
+.report table.pre_reportTable .checker {
+	background: aquamarine;
+}
+
+.report table.pre_reportTable .total {
+	background: #ffd70063;
+}
+
+.report .datepicker, .report select.emp_choice1 {
+	padding: 3px;
+	width: 15%;
+	margin-right: 2%;
+}
+
+.processname {
+	font-weight: bold;
+	color: black;
+}
+
+#myProgress {
+	width: 100%;
+	background-color: #ddd;
+}
+
+#myBar {
+	width: 0%;
+	height: 30px;
+	background-color: #4CAF50;
+}
+
+.ui-widget-header .ui-icon {
+	background-image: url(../images/ui-icons_444444_256x240.png) !important;
+}
+
+.loginForm {
+	width: 100%;
+	position: absolute !important;
+	padding: 0 !important;
+}
+
+.nameradio {
+	text-align: left !important;
+}
+
+.loginerror {
+	color: red;
+}
+
+#bodybackimg {
+	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.menubackcolor {
+	/* background: #d8e1e8; */
+	height: 30px;
+}

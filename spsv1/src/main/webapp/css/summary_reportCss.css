@@ -1,0 +1,27 @@
+
+#summary{
+	width: 50%!important;
+}
+table#summary tr th, table tr td{
+	text-align: center;
+	border: 1px solid black;
+	border-top: 1px solid black!important;
+}
+table#summary tr td input[type=text], select{
+	width: 100%;
+}
+table#summary tr td{
+	font-weight: bold;
+}
+.success{
+	width: 15%;
+}
+/* #heading{
+	color: blue;
+	font-weight: bold;
+} */
+#head{
+	background: #556f7d96;
+    font-size: 20px;
+}
+

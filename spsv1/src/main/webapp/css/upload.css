@@ -1,0 +1,110 @@
+#maindiv {
+	z-index: 1;
+}
+#maindiv:before {
+	content: "";
+	background: url("../images/img.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+    filter:alpha(opacity=40);
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#uploadbtn {
+	height: 150px;
+	margin-top: 10%;
+}
+#uploadbtn img {
+	margin-left: 1.5%;
+}
+.ufilediv p, .getreportdiv p {
+	font-size: 28px;
+    color: blue;
+    font-weight: bold;
+    font-family: cursive;
+}
+.ufilediv .btn {
+    width: 10%;
+    font-size: 18px;
+}
+.getreportdiv .getreport {
+	width: 13%;
+	font-size: 18px;
+} 
+#myBar {
+  width: 0%;
+  height: 5px;
+  background-color: #cbe105b5;
+}
+#successmsg {
+	color:white;
+	font-size:20px;
+}
+
+
+/*------------------------------------- get report ----------------------------------*/
+.showdate {
+	margin-top: 2%;
+	margin-left: 28%;
+}
+.showdate .sdate, .showdate .edate {
+	float: left;
+	color: white;
+	font-size: 18px;
+}
+.showdate .datepicker{
+	color: black;
+}
+.showdate .edate {
+	margin-left: 1%;
+}
+.traineedetails {
+	margin-top: 3%;
+}
+.traineedetails table {
+	width: 85%;
+}
+.traineedetails table tr th, .traineereport table #mainheading th{
+	color: #eae548!important;
+	font-size: 18px!important;
+}
+.traineedetails table tr th, .traineedetails table tr td, .traineedetails table tr td a {
+	text-align: center;
+	color: white;
+    font-size: 16px;
+}
+.traineedetails table tr td a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+
+/*--------------------------------- trainee report --------------------------------*/
+#hs {
+	color : white;
+	font-weight : bold;
+}
+.traineereport {
+	padding: 1%;
+	border: 0px solid;
+}
+.traineereport table tr th, .traineereport table tr td {
+	text-align: center;
+	color: white;
+    font-size: 16px;
+}
+.header h3 {
+	color: white;
+	padding: 1.5%;
+}
+
+
+
