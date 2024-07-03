@@ -1,0 +1,36 @@
+body {
+	 	font-family: "Open Sans", sans-serif;
+	
+/* 	font-family: "Century Gothic", "Lato", sans-serif; */
+	background-image: url("../image/makup.avif");
+	webkit-background-size: cover;
+	moz-background-size: cover;
+	background-size: cover;
+	font-size: 10px;
+	align-items: center;
+}
+
+
+
+form h1 {
+	font-size: 2.5em; Make the title larger
+	margin-bottom: 20px;
+	text-align: center; Center-align the header
+	font-size: xxx-large;
+}
+
+form h2 {
+	font-size: 2.3em; Make the title larger
+	margin-bottom: 20px;
+	text-align: center; Center-align the header
+	font-size: revert-layer;
+	font-style: oblique;
+}
+
+form h3 {
+	font-size: 2.2em; Make the title larger
+	margin-bottom: 20px;
+	text-align: center; Center-align the header
+	font-size: revert-layer;
+	font-style: oblique;
+}
