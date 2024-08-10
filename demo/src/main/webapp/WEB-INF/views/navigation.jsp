@@ -34,6 +34,8 @@
 								<li><a href="#">Party Wear</a></li>
 							</ul>
 						</center>
+						
+						
 				</table>
 			</div>
 			<div class="col-md-6 col-sm-6 rightsidediv">
