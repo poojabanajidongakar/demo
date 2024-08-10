@@ -13,7 +13,7 @@ public class Login {
 
 	@GetMapping("/login")
 	public String login() {
-		return "login";
+		return "index";
 		
 	}
 
@@ -31,7 +31,7 @@ public class Login {
 			System.out.println("Incorrect Crdentials! Try Again..");
 			m.addAttribute("error", "Incorrect Crdentials! Try Again..");
 			
-			return "login";
+			return "index";
 
 		}
 	}
