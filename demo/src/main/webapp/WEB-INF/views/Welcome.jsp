@@ -70,6 +70,11 @@
 				<img src="${pageContext.request.contextPath}/image/img3.jpg"
 					alt="Image 1" />
 			</div>
+			
+			
+			<button class="button-64" role="button" formaction="${pageContext.request.contextPath}/user/login">
+					<span class="text">Logout</span>
+				</button>
 
 
 		</div>

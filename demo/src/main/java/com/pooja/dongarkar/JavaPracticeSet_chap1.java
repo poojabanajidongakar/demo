@@ -48,15 +48,15 @@ public class JavaPracticeSet_chap1 {
 
 		////////////////////////// Question 5 identified is int or not
 
-		System.out.println("Enter you number:-");
-
-		Scanner sc = new Scanner(System.in);
-
-		System.out.println(sc.hasNextInt());
+//		System.out.println("Enter you number:-");
+//
+//		Scanner sc = new Scanner(System.in);
+//
+//		System.out.println(sc.hasNextInt());
 
 ////////////////////////////////Percentage
-		float total = 0;
-
+//		float total = 0;
+//
 //		Scanner scan = new Scanner(System.in);
 //
 //		System.out.println("Enter physics Marks");
